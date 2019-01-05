@@ -104,12 +104,12 @@ int main ()
 			ll ch = adj[fat][j] ; 
 			h[ch] = h[fat]+1 ; 
 			q.push(ch) ; 
-			debug1(adj[fat][j]) ; 
+			//debug1(adj[fat][j]) ; 
 		}		 
 	}
-	cerr<<"\n" ;
+	//cerr<<"\n" ;
 
-	debug(h) ; 
+	//debug(h) ; 
 
 	for ( int i = 1 ; i <= n ; i++ )
 	{
@@ -151,7 +151,7 @@ int main ()
 		}		
 	}
 
-	debug(a) ; 
+	//debug(a) ; 
 	cout<<sumof(a)<<nl ; 
 	return 0 ; 
 
