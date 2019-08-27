@@ -1,4 +1,4 @@
-// https://www.codechef.com//OCT18A/problems/BBRICKS
+// https://www.codechef.com/OCT18Aproblems/BBRICKS
 
 #include <bits/stdc++.h>
 using namespace std; 

@@ -1,4 +1,4 @@
-// https://www.codechef.com//LOCJUN18/problems/CHEFCUP
+// https://www.codechef.com/LOCJUN18problems/CHEFCUP
 
 #include <bits/stdc++.h>
 using namespace std; 

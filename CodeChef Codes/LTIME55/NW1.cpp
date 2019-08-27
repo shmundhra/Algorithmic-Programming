@@ -1,4 +1,4 @@
-// https://www.codechef.com//LTIME55/problems/NW1
+// https://www.codechef.com/LTIME55problems/NW1
 
 #include <iostream>
 #include <bits/stdc++.h>

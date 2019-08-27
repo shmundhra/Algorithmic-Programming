@@ -1,4 +1,4 @@
-// https://www.codechef.com//DEC17/problems/GIT01
+// https://www.codechef.com/DEC17problems/GIT01
 
 #include <iostream>
 #include <bits/stdc++.h>

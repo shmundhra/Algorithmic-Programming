@@ -1,4 +1,4 @@
-// https://www.codechef.com//OCT18A/problems/HMAPPY
+// https://www.codechef.com/OCT18Aproblems/HMAPPY
 
 #include <bits/stdc++.h>
 using namespace std; 

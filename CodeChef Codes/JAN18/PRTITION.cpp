@@ -1,4 +1,4 @@
-// https://www.codechef.com//JAN18/problems/PRTITION
+// https://www.codechef.com/JAN18problems/PRTITION
 
 #include <iostream>
 #include <bits/stdc++.h>

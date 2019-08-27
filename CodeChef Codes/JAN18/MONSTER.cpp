@@ -1,4 +1,4 @@
-// https://www.codechef.com//JAN18/problems/MONSTER
+// https://www.codechef.com/JAN18problems/MONSTER
 
 #include <iostream>
 #include <bits/stdc++.h>

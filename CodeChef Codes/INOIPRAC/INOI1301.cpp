@@ -1,4 +1,4 @@
-// https://www.codechef.com//INOIPRAC/problems/INOI1301
+// https://www.codechef.com/INOIPRACproblems/INOI1301
 
 #include <bits/stdc++.h>
 using namespace std; 

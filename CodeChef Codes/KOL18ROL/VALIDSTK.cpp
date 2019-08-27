@@ -1,4 +1,4 @@
-// https://www.codechef.com//KOL18ROL/problems/VALIDSTK
+// https://www.codechef.com/KOL18ROLproblems/VALIDSTK
 
 #include <bits/stdc++.h>
 using namespace std; 

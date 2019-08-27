@@ -1,4 +1,4 @@
-// https://www.codechef.com/KOL18ROL/problems/TILEBAG
+// https://www.codechef.com/KOL18ROLproblems/TILEBAG
 
 #include <bits/stdc++.h>
 

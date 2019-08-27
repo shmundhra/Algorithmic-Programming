@@ -1,4 +1,4 @@
-// https://www.codechef.com//JAN18/problems/KCON
+// https://www.codechef.com/JAN18problems/KCON
 
 #include <iostream>
 #include <bits/stdc++.h>

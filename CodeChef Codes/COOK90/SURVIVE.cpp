@@ -1,4 +1,4 @@
-// https://www.codechef.com//COOK90/problems/SURVIVE
+// https://www.codechef.com/COOK90problems/SURVIVE
 
 #include <iostream>
 #include <bits/stdc++.h>

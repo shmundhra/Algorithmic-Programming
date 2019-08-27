@@ -1,4 +1,4 @@
-// https://www.codechef.com//COOK89/problems/FBMT
+// https://www.codechef.com/COOK89problems/FBMT
 
 #include <iostream>
 #include <bits/stdc++.h>

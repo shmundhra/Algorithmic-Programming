@@ -1,4 +1,4 @@
-// https://www.codechef.com//COOK98A/problems/OETW
+// https://www.codechef.com/COOK98Aproblems/OETW
 
 #pragma GCC optimize("Ofast")
 #pragma GCC optimize ("unroll-loops")

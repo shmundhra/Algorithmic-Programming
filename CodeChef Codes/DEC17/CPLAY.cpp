@@ -1,4 +1,4 @@
-// https://www.codechef.com//DEC17/problems/CPLAY
+// https://www.codechef.com/DEC17problems/CPLAY
 
 #include <iostream>
 #include <bits/stdc++.h>

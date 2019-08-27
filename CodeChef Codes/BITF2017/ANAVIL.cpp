@@ -1,4 +1,4 @@
-// https://www.codechef.com//BITF2017/problems/ANAVIL
+// https://www.codechef.com/BITF2017problems/ANAVIL
 
 #include <iostream>
 #include <bits/stdc++.h>

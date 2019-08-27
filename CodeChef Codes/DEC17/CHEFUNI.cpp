@@ -1,4 +1,4 @@
-// https://www.codechef.com//DEC17/problems/CHEFUNI
+// https://www.codechef.com/DEC17problems/CHEFUNI
 
 #include <iostream>
 #include <bits/stdc++.h>

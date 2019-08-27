@@ -1,4 +1,4 @@
-// https://www.codechef.com//DEC17/problems/VK18
+// https://www.codechef.com/DEC17problems/VK18
 
 #include <iostream>
 #include <bits/stdc++.h>

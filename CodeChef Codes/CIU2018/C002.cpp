@@ -1,4 +1,4 @@
-// https://www.codechef.com//CIU2018/problems/C002
+// https://www.codechef.com/CIU2018problems/C002
 
 #include <bits/stdc++.h>
 using namespace std; 

@@ -1,4 +1,4 @@
-// https://www.codechef.com//OCT18A/problems/SURCHESS
+// https://www.codechef.com/OCT18Aproblems/SURCHESS
 
 #include <bits/stdc++.h>
 using namespace std; 

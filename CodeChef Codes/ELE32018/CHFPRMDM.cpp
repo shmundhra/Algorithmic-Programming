@@ -1,4 +1,4 @@
-// https://www.codechef.com//ELE32018/problems/CHFPRMDM
+// https://www.codechef.com/ELE32018problems/CHFPRMDM
 
 #pragma GCC optimize("Ofast")
 #pragma GCC optimize ("unroll-loops")

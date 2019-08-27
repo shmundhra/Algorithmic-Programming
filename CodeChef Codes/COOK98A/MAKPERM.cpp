@@ -1,4 +1,4 @@
-// https://www.codechef.com//COOK98A/problems/MAKPERM
+// https://www.codechef.com/COOK98Aproblems/MAKPERM
 
 #pragma GCC optimize("Ofast")
 #pragma GCC optimize ("unroll-loops")

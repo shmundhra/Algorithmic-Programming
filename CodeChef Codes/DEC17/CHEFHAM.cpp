@@ -1,4 +1,4 @@
-// https://www.codechef.com//DEC17/problems/CHEFHAM
+// https://www.codechef.com/DEC17problems/CHEFHAM
 
 #include <iostream>
 #include <bits/stdc++.h>

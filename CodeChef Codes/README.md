@@ -1,2 +1,2 @@
 # CODECHEF
-All my codes Submitted and Accepted at https://www.codechef.com//users/shmundhra
+All my codes Submitted and Accepted by https://www.codechef.com//users/shmundhra

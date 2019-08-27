@@ -1,4 +1,4 @@
-// https://www.codechef.com//JAN18/problems/KILLKTH
+// https://www.codechef.com/JAN18problems/KILLKTH
 
 #include <iostream>
 #include <bits/stdc++.h>

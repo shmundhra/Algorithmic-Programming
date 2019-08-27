@@ -1,4 +1,4 @@
-// https://www.codechef.com//COOK90/problems/MULTHREE
+// https://www.codechef.com/COOK90problems/MULTHREE
 
 #include <iostream>
 #include <bits/stdc++.h>

@@ -1,4 +1,4 @@
-// https://www.codechef.com//OCT18A/problems/MINDSUM
+// https://www.codechef.com/OCT18Aproblems/MINDSUM
 
 #include <bits/stdc++.h>
 using namespace std; 

@@ -1,4 +1,4 @@
-// https://www.codechef.com/KOL18ROL/problems/BUCKETWA
+// https://www.codechef.com/KOL18ROLproblems/BUCKETWA
 
 #include<bits/stdc++.h>
 #define vi vector<int>

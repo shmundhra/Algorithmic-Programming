@@ -1,4 +1,4 @@
-// https://www.codechef.com//ELE32018/problems/CHFUCHOC
+// https://www.codechef.com/ELE32018problems/CHFUCHOC
 
 #pragma GCC optimize("Ofast")
 #pragma GCC optimize ("unroll-loops")

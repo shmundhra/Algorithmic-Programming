@@ -1,4 +1,4 @@
-// https://www.codechef.com//BITF2017/problems/BLKWID
+// https://www.codechef.com/BITF2017problems/BLKWID
 
 #include <iostream>
 #include <bits/stdc++.h>

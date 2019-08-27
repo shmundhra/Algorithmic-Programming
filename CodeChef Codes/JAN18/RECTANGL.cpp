@@ -1,4 +1,4 @@
-// https://www.codechef.com//JAN18/problems/RECTANGL
+// https://www.codechef.com/JAN18problems/RECTANGL
 
 #include <iostream>
 #include <bits/stdc++.h>

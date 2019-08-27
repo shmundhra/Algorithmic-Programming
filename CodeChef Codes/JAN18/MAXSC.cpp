@@ -1,4 +1,4 @@
-// https://www.codechef.com//JAN18/problems/MAXSC
+// https://www.codechef.com/JAN18problems/MAXSC
 
 #include <iostream>
 #include <bits/stdc++.h>

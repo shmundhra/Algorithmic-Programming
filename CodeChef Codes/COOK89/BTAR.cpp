@@ -1,4 +1,4 @@
-// https://www.codechef.com//COOK89/problems/BTAR
+// https://www.codechef.com/COOK89problems/BTAR
 
 #include <iostream>
 #include <bits/stdc++.h>

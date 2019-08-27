@@ -1,4 +1,4 @@
-// https://www.codechef.com//DEC17/problems/CHEFEXQ
+// https://www.codechef.com/DEC17problems/CHEFEXQ
 
 #include <iostream>
 #include <bits/stdc++.h>

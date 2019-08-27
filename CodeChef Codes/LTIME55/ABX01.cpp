@@ -1,4 +1,4 @@
-// https://www.codechef.com//LTIME55/problems/ABX01
+// https://www.codechef.com/LTIME55problems/ABX01
 
 #include <iostream>
 #include <bits/stdc++.h>

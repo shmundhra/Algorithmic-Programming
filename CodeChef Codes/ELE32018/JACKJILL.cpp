@@ -1,4 +1,4 @@
-// https://www.codechef.com//ELE32018/problems/JACKJILL
+// https://www.codechef.com/ELE32018problems/JACKJILL
 
 #pragma GCC optimize("Ofast")
 #pragma GCC optimize ("unroll-loops")

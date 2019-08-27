@@ -1,4 +1,4 @@
-// https://www.codechef.com/SNCKQL19/problems/QUALPREL
+// https://www.codechef.com/problems/BINGAME
 
 #include <bits/stdc++.h>
 using namespace std; 
@@ -23,11 +23,11 @@ typedef vector < pll > vp ;
 #define lp1(i , n ) for ( ll i = 1 ; i <= n ; i++ )
 #define lpp(i , n ) for ( ll i = n-1 ; i >= 0 ; i-- )
 #define rep(i , a , b , n) for(ll i = a; i < b ; i += n )
-#define repp(i , a , b , n) for(ll i = b-1 ; i >= a ; i -= n )      
+#define repp(i , a , b , n) for(ll i = b-1 ; i >= a ; i -= n ) 	 
 #define umap unordered_map 
 
-#define f first 
-#define s second
+#define F first 
+#define S second
 #define pb push_back
 #define mp make_pair
 
@@ -35,32 +35,34 @@ typedef vector < pll > vp ;
 #define inarr(size) vll v ( size , 0 ) ; lp ( i , size ) cin>>v[i]  
 #define invec( vec_name ) lp ( i , sz(vec_name) ) cin>>vec_name[i] 
 #define debug( vec_name ) for ( auto val : vec_name ) cout<<val<<" " ; cout<<nl 
-
+ll power(ll x,ll y,ll mod){ll res = 1; while(y){if(y&1) res = (res*x)%mod;y=y/2,x=(x*x)%mod;}return res%mod;}
 #define fast ios::sync_with_stdio(false); cin.tie(0);
-
-#define mini ( a , b )  ( (a) > (b) ? (b) : (a) ) 
-#define maxi ( a , b )  ( (a) < (b) ? (b) : (a) ) 
 
 // Array for factorials maybe .
 vector < unsigned long long > factorial = { 1 , 1 , 2 , 6 , 24 , 120 , 720 , 5040 , 40320 , 362880 , 3628800 , 39916800 ,  
-479001600 , 6227020800 , 87178291200, 1307674368000 , 20922789888000 , 355687428096000 , 6402373705728000    } ; // 18! tak hai 
+479001600 , 6227020800 , 87178291200, 1307674368000 , 20922789888000 , 355687428096000 , 6402373705728000	} ; // 18! tak hai 
 
 int main () 
 {
-    fast     
-    tc(t)
-    {
-        ll n , k ; 
-        cin>>n>>k; 
-        inarr(n) ; 
-        
-        lp ( i , n ) v[i] *= -1 ;         
-        sort( all(v) ) ; 
-        
-        ll val = v[k-1] ;
-        ll num = upper_bound( all(v) , val ) - v.begin() ; 
+	fast 		
+	tc(t)
+	{
+		ll n ; cin>>n ; inarr(n) ; 
+		
+		vll temp(3,0) ; 
+		lp ( i , n ) temp[v[i]%3]++ ; 
 
-        cout<<num<<nl ; 
-    }
-    return 0 ; 
+		if ( temp[0] is n )
+		{
+			cout<<0<<nl ; 
+			continue ; 
+		}
+		if ( temp[1] is 1 and temp[2] is 1 )
+		{
+			cout<<n-1<<nl ;
+			continue ; 
+		}
+		cout<<n<<nl ;
+	}
+	return 0 ; 
 }

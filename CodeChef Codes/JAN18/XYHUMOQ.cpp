@@ -1,4 +1,4 @@
-// https://www.codechef.com//JAN18/problems/XYHUMOQ
+// https://www.codechef.com/JAN18problems/XYHUMOQ
 
 #include <iostream>
 #include <bits/stdc++.h>

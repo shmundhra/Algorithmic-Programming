@@ -1,4 +1,4 @@
-// https://www.codechef.com//LTIME63A/problems/EID
+// https://www.codechef.com/LTIME63Aproblems/EID
 
 #include <bits/stdc++.h>
 using namespace std; 

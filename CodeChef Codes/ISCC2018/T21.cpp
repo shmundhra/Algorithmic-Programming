@@ -1,4 +1,4 @@
-// https://www.codechef.com//ISCC2018/problems/T21
+// https://www.codechef.com/ISCC2018problems/T21
 
 #pragma GCC optimize("Ofast")
 #pragma GCC optimize ("unroll-loops")

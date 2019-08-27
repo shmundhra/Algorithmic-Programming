@@ -1,4 +1,4 @@
-// https://www.codechef.com//IOITC181/problems/CIRCINTE
+// https://www.codechef.com/IOITC181problems/CIRCINTE
 
 #include <iostream>
 #include <bits/stdc++.h>

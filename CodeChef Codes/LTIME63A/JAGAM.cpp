@@ -1,4 +1,4 @@
-// https://www.codechef.com//LTIME63A/problems/JAGAM
+// https://www.codechef.com/LTIME63Aproblems/JAGAM
 
 #include <bits/stdc++.h>
 using namespace std; 

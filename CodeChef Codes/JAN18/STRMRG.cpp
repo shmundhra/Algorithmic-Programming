@@ -1,4 +1,4 @@
-// https://www.codechef.com//JAN18/problems/STRMRG
+// https://www.codechef.com/JAN18problems/STRMRG
 
 #include <iostream>
 #include <bits/stdc++.h>
