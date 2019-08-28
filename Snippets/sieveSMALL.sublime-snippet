@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+vector <bool> isprime ; 
+void sieveS ( int LIM )
+{
+    isprime.assign( LIM+1 , true ) ; 
+    isprime[0] = isprime[1] = false ;
+    for ( ll i = 2 ; i*i <= LIM ; i++ )
+        if ( isprime[i] )
+            for ( ll j = i*i ; j <= LIM ; j+=i )
+                isprime[j] = false ; 
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sieveS</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

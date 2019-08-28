@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+vll calc_fact (ll n , ll mod )
+{	vll fact(n+1,1) ; 
+	lpp (i,1,n+1) 
+		fact[i] = (fact[i-1]*i) % mod ; 
+	return fact ; 
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fact</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

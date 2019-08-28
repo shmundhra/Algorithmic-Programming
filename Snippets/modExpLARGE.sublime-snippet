@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+ll modexpCALC ( ll b , ll e , ll mod ){  
+   b = b % mod ; e = e % (mod-1) ;   
+   while ( e )  {
+       if ( e&1 )
+           ans = (ans * b) % mod ;
+       e >>= 1 ; b = (b*b)% mod  ;
+   }
+   return ans ;
+}
+ll modExp ( ll B , ll E , ll mod ){  
+   ll b = abs(B) ; ll e = abs(E) ;
+   ll ans = modexpCALC( b , e , mod ) ; 
+   if ( B < 0 && e&1 ) ans = ( mod - ans ) % mod ;    
+   if ( E < 0 )  ans = modexpCALC ( ans, mod-2, mod) ;
+   return (ll)ans ; 
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>modExp2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
