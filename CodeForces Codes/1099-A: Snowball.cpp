@@ -1,5 +1,7 @@
 //https://codeforces.com/contest/1099/problem/A
 
+//https://codeforces.com/contest/1099/problem/A
+
 #include <bits/stdc++.h> 
 using namespace std; 
 
