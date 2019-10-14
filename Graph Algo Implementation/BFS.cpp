@@ -1,53 +1,59 @@
-int main () 
-{   
-    int n , m ; 
-    int x , y ; 
+#include <bits/stdc++.h>
+using namespace std;
 
-    cin>>n>>m ;
+int main ()
+{
+    int n, m;
+    cin>>n>>m;
 
-    vector < vector < int > > adj ( n , vector < int >() ) ;      // int -> pair < int , int > in case of Weights 
-
-    for ( int i = 0 ; i < m ; i++ )
+    vector<int> adj[n];      // int -> pair < int, int > in case of Weights
+    int x, y;
+    for (int i = 0; i < m; i++)
     {
-        cin>>x>>y ; 
-
-        adj[x].push_back(y) ;
-        adj[y].push_back(x) ;       // Depends on Directed Undirected 
+        cin>>x>>y;
+        x--, y--;                  // Depends on Indexing
+        adj[x].push_back(y);
+        adj[y].push_back(x);       // Depends on Directed Undirected
     }
 
-    queue < int > DS ; 
+    vector<int> visited  (n,  0);
+    vector<int> parent   (n, -1);
+    vector<int> distance (n, -1);
+    vector<int> component(n, -1);
+    int connected_components = 0;
 
-    vector < int > visited  ( n ,  0 ) ; 
-    vector < int > parent   ( n , -1 ) ; 
-    vector < int > distance ( n , -1 ) ;
-
-    int source = 0 ; 
-    visited[source] = 1 ; 
-    distance[source] = 0 ; 
-    DS.push(source); 
-
-    while ( !DS.empty() ) 
+    for (int i = 0; i < visited.size(); i++)
     {
-        int current = DS.front() ; 
-        DS.pop() ;
+        if (visited[i] == 1) continue;
         
-        for ( int j = 0 ; j < (int)adj[current].size() ; j++ )
+        connected_components++;
+        queue <int> DS;
+
+        int source = i;
+        visited[source] = 1;
+        parent[source] = -1;
+        distance[source] = 0;
+        component[source] = connected_components;
+        
+        DS.push(source);
+        while (!DS.empty())
         {
-            int child = adj[current][j] ; 
-            if ( visited[child] == 0 )
+            int current = DS.front();
+            DS.pop();
+
+            for (int j = 0; j < (int)adj[current].size(); j++)
             {
-                visited[child]  = 1 ; 
-                parent[child]   = current ; 
-                distance[child] = distance[current] + 1 ; 
-                DS.push(child) ; 
+                int child = adj[current][j];
+                if (visited[child] == 0)
+                {
+                    visited[child]   = 1;
+                    parent[child]    = current;
+                    distance[child]  = distance[current] + 1;
+                    component[child] = connected_components;
+                    DS.push(child);
+                }
             }
-        }        
+        }
     }
-
-
-
-
-
-
     
 }
