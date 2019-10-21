@@ -1,0 +1,45 @@
+<snippet>
+	<content><![CDATA[
+vec<bool> iscomp ; 
+vll prime , phi , spf , func , cnt ; 
+
+void sieve(int LIM)
+{	
+	iscomp.assign(LIM+1,false) ; 
+	phi.assign(LIM+1,0) , func.assign(LIM+1,0) , cnt.assign(LIM+1,0) , spf.assign(LIM+1,-1) ; 
+	iscomp[0] = iscomp[1] = true ; 
+
+	for(int i = 2 ; i <= LIM ; i++ )
+	{
+		if(!iscomp[i]) 
+		{
+			prime.pb(i);
+			spf[i] = i , phi[i] = i-1 , cnt[i] = 1 ,func[i] = 2;
+		}
+		for( int j = 0 ; prime[j] <= spf[i] and i*prime[j] <= LIM and j < (ll)prime.size() ; j++ )
+		{
+			iscomp[i*prime[j]] = true;
+			   spf[i*prime[j]] = prime[j] ; 
+
+			if( i%prime[j] == 0 ) 
+			{					
+				 phi[i*prime[j]] = prime[j]*phi[i];
+				func[i*prime[j]] = func[i]/(1+cnt[i])*(2+cnt[i]);
+				 cnt[i*prime[j]] = cnt[i]+1 ;
+				break;
+			}
+			
+			 phi[i*prime[j]] =  phi[i] *  phi[prime[j]];
+			func[i*prime[j]] = func[i] * func[prime[j]];
+			 cnt[i*prime[j]] = 1;
+		}
+		
+	}
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sieveL</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
