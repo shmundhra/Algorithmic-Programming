@@ -85,9 +85,9 @@ int main ()
         lpd(i,s-1) codeS[i] += codeS[i+1];
         // debug1(eatP); debug1(codeS); sp
 
-        prntc 
+        prntc
         lp(i,d)
-        {   
+        {
             // sp
             ll c, e ; cin >> c >> e;
             // debug2(c, e);
@@ -156,6 +156,6 @@ int main ()
         cout << endl;
         // spp
     }
-    
+
     return 0 ;
 }
