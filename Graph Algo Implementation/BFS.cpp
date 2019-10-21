@@ -25,7 +25,7 @@ int main ()
     for (int i = 0; i < visited.size(); i++)
     {
         if (visited[i] == 1) continue;
-        
+
         connected_components++;
         queue <int> DS;
 
@@ -34,8 +34,8 @@ int main ()
         parent[source] = -1;
         distance[source] = 0;
         component[source] = connected_components;
-        
         DS.push(source);
+
         while (!DS.empty())
         {
             int current = DS.front();
@@ -55,5 +55,5 @@ int main ()
             }
         }
     }
-    
+
 }
