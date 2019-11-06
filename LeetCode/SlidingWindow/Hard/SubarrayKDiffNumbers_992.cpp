@@ -28,6 +28,50 @@
  *
 ******************************************************************************************/
 
+// O(N) HACK SOLUTION
+class Solution {
+public:
+    
+    int solve(vector<int>& A, int k)
+    {
+        int ans = 0;
+        int active = 0;
+        vector<int> count(A.size()+1, 0);
+        
+        int i, j;
+        for(i = 0, j = 0; j < A.size(); j++)
+        {
+            if (count[A[j]] == 0)
+            {
+                active++;
+            }
+            count[A[j]]++;
+            
+            while(active > k)
+            {
+                ans += j-i;
+                count[A[i]]--;
+                if (count[A[i]] == 0)
+                {
+                    active--;
+                }
+                i++;
+            }
+        }
+        for( ; i < j ; i++ ) ans += j-i;
+        return ans;
+    }
+    
+    int subarraysWithKDistinct(vector<int>& A, int k) {
+        
+        int ans1 = solve(A, k);     // Less Than Eq to K
+        int ans2 = solve(A, k-1);   // Less Than Eq to K-1
+        cout << ans1 << " " << ans2 << endl;
+        return ans1 - ans2;         // Equal to K
+    }
+};
+
+
 // O(N) SOLUTION
 class Solution {
 public:
